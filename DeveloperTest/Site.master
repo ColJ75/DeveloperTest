@@ -6,7 +6,7 @@
 <head runat="server">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title><%: Page.Title %> - Pin Digital</title>
+	<title><%: Page.Title %> - Pin Digital Developer Test</title>
 
 	<link rel="stylesheet" href="Css/Bootstrap.css" />
 	<link rel="stylesheet" href="Css/Site.css" />
@@ -33,8 +33,12 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li><a runat="server" href="~/">Home</a></li>
-						<li><a runat="server" href="~/Tests">Tests</a></li>
+						<li><a runat="server" href="~/Tests/CSS/Layout">CSS Layout</a></li>
+						<li><a runat="server" href="~/Tests/Javascript/Scope">Javascript Scope</a></li>
+						<li><a runat="server" href="~/Tests/ASP.NET/Repeater">ASP.NET Repeater</a></li>
+						<li><a runat="server" href="~/Tests/CSharp/Interface">C# Interface</a></li>
+						<li><a runat="server" href="~/Tests/SQL/Blog">SQL Blog</a></li>
+						<li><a runat="server" href="~/Tests/SQL/CTE">SQL CTE</a></li>
 					</ul>
 				</div>
 			</div>

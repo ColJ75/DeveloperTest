@@ -1966,7 +1966,7 @@ textarea.input-group-sm > .input-group-btn > .btn { height: auto; }
 
 .nav-tabs .dropdown-menu { margin-top: -1px; border-top-right-radius: 0; border-top-left-radius: 0; }
 
-.navbar { position: relative; z-index: 1000; min-height: 50px; margin-bottom: 20px; border: 1px solid transparent; }
+.navbar { position: relative; z-index: 1000; min-height: 50px; margin-bottom: 20px; border: 0 none; }
 
 	.navbar:before,
 	.navbar:after { display: table; content: " "; }
@@ -2382,7 +2382,7 @@ a.list-group-item.active > .badge,
 
 .nav-pills > li > a > .badge { margin-left: 3px; }
 
-.jumbotron { padding: 30px; margin-bottom: 30px; font-size: 21px; font-weight: 200; line-height: 2.1428571435; color: inherit; background-color: #eeeeee; }
+.jumbotron { padding: 30px; margin-bottom: 30px; font-size: 21px; font-weight: 200; line-height: 2.1428571435; color: #fff; background-color: #428bca; }
 
 	.jumbotron h1 { line-height: 1; color: inherit; }
 

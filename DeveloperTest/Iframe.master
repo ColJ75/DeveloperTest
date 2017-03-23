@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Iframe.master.cs" Inherits="IframeMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title><%: Page.Title %> - Pin Digital Developer Test</title>
+
+	<link rel="stylesheet" href="Css/Bootstrap.css" />
+	<link rel="stylesheet" href="Css/Site.css" />
+	<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body style="margin: 0 !important; padding: 0 !important;">
+	<form runat="server">
+		<asp:ScriptManager runat="server">
+			<Scripts>
+				<asp:ScriptReference Name="jquery" />
+				<asp:ScriptReference Name="bootstrap" />
+			</Scripts>
+		</asp:ScriptManager>
+
+		<div class="container body-content">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>

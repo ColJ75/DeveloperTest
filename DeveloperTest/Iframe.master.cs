@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Web.UI;
 
-public partial class Tests_Default : Page
+public partial class IframeMaster : MasterPage
 {
 	protected void Page_Load(object sender, EventArgs e)
 	{
-		Response.Redirect("~/");
+
 	}
 }
